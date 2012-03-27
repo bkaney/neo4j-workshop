@@ -1,9 +1,12 @@
 require 'neography'
 
+YAML::ENGINE.yamler = 'syck'
+
+
 @neo = Neography::Rest.new(ENV["NEO4J_URL"] || "http://localhost:7474")
 
 query = "START n=node(2663) RETURN n"
-puts @neo.execute_query(query).inspect
+puts @neo.execute_query(query)
 
 query = <<-QUERY
   START joe=node:hackers_index(id='jfredett')
