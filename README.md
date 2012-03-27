@@ -236,10 +236,10 @@ CHALLENGE!
 
 For the next approx 1 hour, group into teams of 4 and hack hack hack.  Here are some ideas:
 
-  * Best use of expansion --
+  * Best expansion --
     Think twitter, quora, stackoverflow -- use github username and see if there are accounts, extend graph!
 
-  * Best use of visual interactivity --
+  * Best visual interactivity --
     d3.js is a nice place to start, make it more interactive!
 
   * Graph metrics --
