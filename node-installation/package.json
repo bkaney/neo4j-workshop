@@ -1,0 +1,6 @@
+{ "name": "NodeNeo4jBootstrap"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": 
+  { "neo4j": "~0.2.5" }
+}
