@@ -1,9 +1,9 @@
-Naked Installation
-===================
+Bare Installation
+=================
 
 1. Download the database, untar and move to a nice directory:
 
-    $ curl http://dist.neo4j.org/neo4j-community-1.6.1-unix.tar.gz --O neo4j-community-1.6.1-unix.tar.gz
+    $ curl http://192.168.0.11/~jfredett/neo4j-community-1.6.1-unix.tar.gz --O neo4j-community-1.6.1-unix.tar.gz
     $ tar -zxvf neo4j-community-1.6.1-unix.tar.gz
     $ mv neo4j-community-1.6.1 neo4j
 
