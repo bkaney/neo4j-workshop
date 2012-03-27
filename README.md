@@ -147,7 +147,7 @@ Stop your neo4j server.
 Download the data using the CURL command!
 
     $ cd ./neo4j/data
-    $ curl http://192.168.0.11/~jfredett/graph.tar.gz --O graph.tar.gz
+    $ curl http://10.10.100.11/~jfredett/graph.tar.gz --O graph.tar.gz
     $ tar -zxvf graph.tar.gz
     $ rm graph.tar.gz
 
