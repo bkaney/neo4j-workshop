@@ -147,7 +147,6 @@ Stop your neo4j server.
 Download the data using the CURL command!
 
     $ cd ./neo4j/data
-    $ rm ./log/*
     $ curl http://192.168.0.11/~jfredett/graph.tar.gz --O graph.tar.gz
     $ tar -zxvf graph.tar.gz
     $ rm graph.tar.gz
@@ -155,7 +154,7 @@ Download the data using the CURL command!
 Start neo4j server
 
     $ cd ../../
-    $ ./neo4j/bin/start
+    $ ./neo4j/bin/neo4j start
 
 The rest of the exercises are mainly using Cypher.
 
@@ -229,7 +228,7 @@ Using a Built-In Algorithm
 Visualization
 -------------
 
-    Check out the d3_exampe project.
+    Check out the d3_example project.
 
 
 CHALLENGE!
